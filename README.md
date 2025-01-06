@@ -1,2 +1,2 @@
 # Blog
-Allows users to create posts which are then saved to a database.
+The blog application uses Node.js, Express, and EJS, to enable users to view static pages, compose new blog posts via a form, and display posts dynamically. The homepage lists all posts, and each post has its own detailed view accessible through a dynamic URL, with case-insensitive matching handled by lodash. Blog posts are stored in memory in a posts array, and the application uses EJS templates to render pages dynamically. The server runs on port 3000, offering basic functionality for creating and managing blog content.
